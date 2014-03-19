@@ -1,0 +1,187 @@
+---
+layout: post
+title: "testing"
+date: 2014-03-19 21:22:01 +0100
+comments: true
+categories: 
+publish: false
+---
+An h1 header
+============
+
+~~~
+    Single line breaks
+    have no effect.
+    
+    Add a new line for a paragraph.
+	If you want to enforce a line break,\\
+    you need to use two backslashes.
+~~~	
+
+Single line breaks
+have no effect.
+    
+Add a new line for a paragraph.
+    
+If you want to enforce a line break,\\
+you need to use two backslashes.
+
+Paragraphs are separated by a blank line.
+
+
+~~~
+### Lists ###
+~~~
+
+Itemized lists look like:
+
+~~~
+* Bullet list item 1
+* Bullet list item 2
+~~~
+
+* Bullet list item 1
+* Bullet list item 2
+
+~~~
+1. Numbered list item
+2. Numbered list item
+42. You don't need to number properly
+~~~
+
+1. Numbered list item
+2. Numbered list item
+42. You don't need to number properly
+
+~~~
+Definition list term 1
+: Definition list definition 1
+
+Definition list term 2
+: Definition list definition 2
+~~~
+
+Definition list term 1
+: Definition list definition 1
+
+Definition list term 2
+: Definition list definition 2
+
+
+~~~
+Now a nested list:
+
+ 1. First, get these ingredients:
+
+      * carrots
+      * celery
+      * lentils
+
+ 2. Boil some water.
+
+ 3. Dump everything in the pot and follow
+    this algorithm:
+
+        find wooden spoon
+        uncover pot
+        stir
+        cover pot
+        balance wooden spoon precariously on pot handle
+        wait 10 minutes
+        goto first step (or shut off burner when done)
+
+    Do not bump wooden spoon or it will fall.
+
+Notice again how text always lines up on 4-space indents (including
+that last line which continues item 3 above). Here's a link to [a
+website](http://foo.bar). Here's a link to a [local
+doc](local-doc.html). Here's a footnote [^1].
+
+[^1]: Footnote text goes here.
+~~~
+
+Now a nested list:
+
+ 1. First, get these ingredients:
+
+      * carrots
+      * celery
+      * lentils
+
+ 2. Boil some water.
+
+ 3. Dump everything in the pot and follow
+    this algorithm:
+
+        find wooden spoon
+        uncover pot
+        stir
+        cover pot
+        balance wooden spoon precariously on pot handle
+        wait 10 minutes
+        goto first step (or shut off burner when done)
+
+    Do not bump wooden spoon or it will fall.
+
+Notice again how text always lines up on 4-space indents (including
+that last line which continues item 3 above). Here's a link to [a
+website](http://foo.bar). Here's a link to a [local
+doc](local-doc.html). Here's a footnote [^1].
+
+[^1]: Footnote text goes here
+
+~~~
+Tables can look like this:
+| First cell|Second cell|Third cell
+| First | Second | Third |
+
+First | Second | | Fourth |
+
+size  material      color
+----  ------------  ------------
+9     leather       brown
+10    hemp canvas   natural
+11    glass         transparent
+
+Table: Shoes, their sizes, and what they're made of
+
+(The above is the caption for the table.) Here's a definition list:
+
+apples
+  : Good for making applesauce.
+oranges
+  : Citrus!
+tomatoes
+  : There's no "e" in tomatoe.
+
+Again, text is indented 4 spaces. (Alternately, put blank lines in
+between each of the above definition list lines to spread things
+out more.)
+~~~
+
+Tables can look like this:
+| First cell|Second cell|Third cell
+| First | Second | Third |
+
+First | Second | | Fourth |
+
+size  material      color
+----  ------------  ------------
+9     leather       brown
+10    hemp canvas   natural
+11    glass         transparent
+
+Table: Shoes, their sizes, and what they're made of
+
+(The above is the caption for the table.) Here's a definition list:
+
+apples
+  : Good for making applesauce.
+oranges
+  : Citrus!
+tomatoes
+  : There's no "e" in tomatoe.
+
+Again, text is indented 4 spaces. (Alternately, put blank lines in
+between each of the above definition list lines to spread things
+out more.)
